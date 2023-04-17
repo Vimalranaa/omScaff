@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .navbar{
+            background-color: cadetblue;
+            border: solid 2px #010127;
+            position: sticky;
+            top: 0;
+            clear: both;
+            overflow: hidden;
+        }
+        .logo{
+            float: left;
+            margin-left: 60px;
+        }
+        .logo>img{
+            width: 120px;
+            height: 60px;
+        }
+        .menu{
+            float: right;
+            margin: 20px 60px;
+        }
+        .menu>ul{
+            /* list-style-type: lower-alpha;
+            list-style-position: outside;
+            list-style-image: url(./musicicon16x16.jpeg); */
+
+            list-style: none;
+        }
+        .menu>ul>li{
+            display: inline;
+            padding: 8px 12px;
+            background-color: tomato;
+            border: solid 1px black;
+        }
+        .menu>ul>li>a{
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .blogsection{
+            /* padding: 50px; */
+            text-align: center;
+        }
+        .blog-post{
+            width: 23%;
+            background-color: coral;
+            border: solid 2px black;
+            padding: 20px;
+
+            /* float: left; */
+            display: inline-block;
+            margin: 20px 10px;
+        }
+        .blog-post>img{
+            width: 100%;
+        }
+        .blog-post>h1{
+            font-size: 35px;
+            text-align: center;
+            font-weight: 100;
+            color: white;
+            font-family: cursive;
+        }
+        .blog-post>p{
+            font-size: 16px;
+            color: navy;
+            margin: 20px 0;
+        }
+        .blog-post>button{
+            padding: 8px 20px;
+            border: none;
+            background-color: #010127;
+            color: white;
+        }
+    </style>
+
+    <script>
+        window.onscroll =  function(){
+            if(window.scrollY <= 0){
+                document.getElementById('navmain').style.backgroundColor = 'cadetblue';
+            }else{
+                document.getElementById('navmain').style.backgroundColor = 'red';
+            }
+        }
+    </script>
+
+
+</head>
+<body>
+    <div class="navbar" id="navmain">
+        <div class="logo">
+            <img src="./gym.png" alt="Gym Logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+                <li><a href="#">Item 4</a></li>
+                <li><a href="#">Item 5</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="blogsection">
+        <div class="blog-post">
+            <img src="./images/about.jpg" alt="Gym" class="blog-img">
+            <h1>Heading1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati illum soluta officia distinctio veniam numquam eius adipisci quidem laboriosam sint? Ipsa repellat pariatur voluptatem consectetur, qui itaque quae ullam unde?</p>
+            <button>Read more</button>
+        </div>
+        <div class="blog-post">
+            <img src="./images/about.jpg" alt="Gym" class="blog-img">
+            <h1>Heading1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati illum soluta officia distinctio veniam numquam eius adipisci quidem laboriosam sint? Ipsa repellat pariatur voluptatem consectetur, qui itaque quae ullam unde?</p>
+            <button>Read more</button>
+        </div>
+        <div class="blog-post">
+            <img src="./images/about.jpg" alt="Gym" class="blog-img">
+            <h1>Heading1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati illum soluta officia distinctio veniam numquam eius adipisci quidem laboriosam sint? Ipsa repellat pariatur voluptatem consectetur, qui itaque quae ullam unde?</p>
+            <button>Read more</button>
+        </div>
+        <div class="blog-post">
+            <img src="./images/about.jpg" alt="Gym" class="blog-img">
+            <h1>Heading1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati illum soluta officia distinctio veniam numquam eius adipisci quidem laboriosam sint? Ipsa repellat pariatur voluptatem consectetur, qui itaque quae ullam unde?</p>
+            <button>Read more</button>
+        </div>
+        <div class="blog-post">
+            <img src="./images/about.jpg" alt="Gym" class="blog-img">
+            <h1>Heading1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati illum soluta officia distinctio veniam numquam eius adipisci quidem laboriosam sint? Ipsa repellat pariatur voluptatem consectetur, qui itaque quae ullam unde?</p>
+            <button>Read more</button>
+        </div>
+        <div class="blog-post">
+            <img src="./images/about.jpg" alt="Gym" class="blog-img">
+            <h1>Heading1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati illum soluta officia distinctio veniam numquam eius adipisci quidem laboriosam sint? Ipsa repellat pariatur voluptatem consectetur, qui itaque quae ullam unde?</p>
+            <button>Read more</button>
+        </div>
+        <div class="blog-post">
+            <img src="./images/about.jpg" alt="Gym" class="blog-img">
+            <h1>Heading1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati illum soluta officia distinctio veniam numquam eius adipisci quidem laboriosam sint? Ipsa repellat pariatur voluptatem consectetur, qui itaque quae ullam unde?</p>
+            <button>Read more</button>
+        </div>
+    </div>
+    
+</body>
+</html>

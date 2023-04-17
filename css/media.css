@@ -1,0 +1,117 @@
+@media (max-width:1280px) {
+
+    /* <-------------home------------> */
+    .paraservice {
+        padding: 0;
+    }
+
+    .boxes {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .inrange1 {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    video {
+        width: 300px;
+        height: 255px;
+    }
+
+    .paravideo {
+        padding: 0;
+    }
+
+    .blogimg {
+        margin: 20px 0;
+    }
+
+    .Get,
+    .bg6,
+    .Get1 {
+        margin: 0 !important;
+    }
+
+    .bgfootmedia {
+        margin: 0 0 0 10px;
+    }
+
+    /* <-----------Home close--------> */
+
+    .aboutimg {
+        padding: 200px 0;
+    }
+
+    .newsletterabt::before {
+        left: 36%;
+        top: 80px;
+    }
+
+    .Profile {
+        width: 100% !important;
+    }
+
+    .cardsecicon {
+        width: 33%;
+    }
+
+    .clientmedia1 {
+        display: none;
+    }
+
+    .rewardmed {
+        margin-left: 103px;
+    }
+
+    .paramed {
+        font-size: 15px !important;
+    }
+
+    .servicemed {
+        padding: 0px !important;
+        margin: 0 !important;
+    }
+
+    .bgservice {
+        padding: 0 !important;
+    }
+
+
+
+    /* <---------dropdown--------> */
+    .parameddrp {
+        font-size: 12px !important;
+        max-width: 80% !important;
+        line-height: inherit;
+        left: 24%;
+    }
+
+    .textsocial {
+        font-size: 18px;
+    }
+
+    .animatecontain:hover .left {
+        left: 1%;
+    }
+
+    .right {
+        width: 70% !important;
+        left: 25% !important;
+        top: 44%;
+    }
+
+    .rightcnlmed {
+        width: 46% !important;
+        left: 39% !important;
+    }
+
+    .rightclampmed{
+        width: 38% !important;
+        left: 38% !important;
+        top: 46%;
+    }
+
+
+}
